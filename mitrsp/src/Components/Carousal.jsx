@@ -13,6 +13,9 @@ function Carousal() {
                     </div>
                     
                 </div>
+                <div className="main2">
+                    
+                </div>
             </div>
         </>
     )

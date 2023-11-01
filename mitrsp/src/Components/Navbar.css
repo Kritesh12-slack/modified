@@ -10,8 +10,8 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1.875rem;
+    padding-bottom: 0.625rem;
 }
 
 .links {

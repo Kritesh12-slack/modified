@@ -1,4 +1,6 @@
 import "./Carousal.css"
+import SvgComponent from "./SvgComponent"
+import SvgComponentBg from "./SvgComponentBg"
 
 function Carousal() {
     return (
@@ -9,7 +11,8 @@ function Carousal() {
                         <div className="headText">Space Pe</div>
                         <div className="tagText">Your Perfect IT Partner</div>
                     </div>
-                    <div className="imageS">
+                    <div className="imageS" style={{ backgroundImage: `url(${SvgComponentBg})` }}>
+                        <SvgComponent />
                     </div>
                     
                 </div>

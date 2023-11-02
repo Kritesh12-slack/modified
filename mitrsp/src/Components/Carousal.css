@@ -1,3 +1,4 @@
+
 .Container{
     display: flex;
     justify-content: center;
@@ -28,7 +29,8 @@
 }
 
 
-.image{
+.imageS{
+    background-image: url(`${SvgComponentBg}`);
     height: 25vh;
     width: 15vw;
 }
